@@ -1,0 +1,335 @@
+
+/** PROJECT SELECT **/
+
+.project-box:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+.project-1 {
+	display: none;
+}
+
+#project-1:checked ~ .project-1 {
+	display: flex;
+}
+
+.p1-icecream {
+	background-image: url(Images/TAD-P1-IcecreamInfographic.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.p1-icecream:hover {
+	background-image: url(Images/TAD-P1-IcecreamDemo.gif);
+}
+
+
+
+
+.project-2 {
+	display: none;
+}
+
+#project-2:checked ~ .project-2 {
+	display: flex;
+}
+
+
+
+
+.project-3 {
+	display: none;
+}
+
+#project-3:checked ~ .project-3 {
+	display: flex;
+}
+
+
+
+
+.project-4 {
+	display: none;
+}
+
+#project-4:checked ~ .project-4 {
+	display: flex;
+}
+
+
+
+
+.project-5 {
+	display: none;
+}
+
+#project-5:checked ~ .project-5 {
+	display: flex;
+}
+
+.p5-min-hight-width {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+
+
+
+.project-6 {
+	display: none;
+}
+
+#project-6:checked ~ .project-6 {
+	display: flex;
+}
+
+
+
+
+.project-7 {
+	display: none;
+}
+
+#project-7:checked ~ .project-7 {
+	display: flex;
+}
+
+
+
+
+
+.project-8 {
+	display: none;
+}
+
+#project-8:checked ~ .project-8 {
+	display: flex;
+}
+
+
+
+
+
+/** P7 Page Selector **/
+
+.pg-hover:hover {
+	cursor: pointer;
+}
+
+
+.pg1 {
+	display: none;
+}
+
+#pg1:checked ~ .pg1 {
+	display: flex;
+}
+
+.pg2 {
+	display: none;
+}
+
+#pg2:checked ~ .pg2 {
+	display: flex;
+}
+
+.pg3 {
+	display: none;
+}
+
+#pg3:checked ~ .pg3 {
+	display: flex;
+}
+
+.pg4 {
+	display: none;
+}
+
+#pg4:checked ~ .pg4 {
+	display: flex;
+}
+
+
+
+
+
+
+
+/** P4 Illustration Selector **/
+
+.il-1 {
+	display: none;
+}
+
+#il-1:checked ~ .il-1 {
+	display: flex;
+}
+
+.il-2 {
+	display: none;
+}
+
+#il-2:checked ~ .il-2 {
+	display: flex;
+}
+
+.il-3 {
+	display: none;
+}
+
+#il-3:checked ~ .il-3 {
+	display: flex;
+}
+
+.il-4 {
+	display: none;
+}
+
+#il-4:checked ~ .il-4 {
+	display: flex;
+}
+
+.il-5 {
+	display: none;
+}
+
+#il-5:checked ~ .il-5 {
+	display: flex;
+}
+
+.il-6 {
+	display: none;
+}
+
+#il-6:checked ~ .il-6 {
+	display: flex;
+}
+
+.il-7 {
+	display: none;
+}
+
+#il-7:checked ~ .il-7 {
+	display: flex;
+}
+
+.il-8 {
+	display: none;
+}
+
+#il-8:checked ~ .il-8 {
+	display: flex;
+}
+
+.il-9 {
+	display: none;
+}
+
+#il-9:checked ~ .il-9 {
+	display: flex;
+}
+
+
+
+/** IMAGES **/
+
+.fit-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+
+
+/** !!! MOBILE BREAKPOINT !!! **/
+
+@media screen and (max-width: 480px) {
+
+	#project-1:checked ~ .project-1 {
+		display: grid;
+	}
+
+	.p1-icecream {
+		background-image: url(Images/TAD-P1-IcecreamInfographic.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.p1-icecream:hover {
+		background-image: url(Images/TAD-P1-IcecreamInfographic.png);
+	}
+
+	.p1-icecream:active {
+		background-image: url(Images/TAD-P1-IcecreamDemo.gif);
+	}
+
+
+
+	#project-2:checked ~ .project-2 {
+		display: grid;
+	}
+
+	#project-3:checked ~ .project-3 {
+		display: grid;
+	}
+
+	#project-4:checked ~ .project-4 {
+		display: grid;
+	}
+
+	#project-5:checked ~ .project-5 {
+		display: grid;
+	}
+
+	#project-6:checked ~ .project-6 {
+		display: grid;
+	}
+
+	#project-7:checked ~ .project-7 {
+		display: grid;
+	}
+
+
+	#project-8:checked ~ .project-8 {
+		display: grid;
+	}
+
+	
+
+	.max-h-100 {
+		max-height: 114%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

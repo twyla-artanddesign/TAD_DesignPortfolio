@@ -1,0 +1,199 @@
+
+main {
+	width: 80vw;
+	margin-left: 10vw;
+	background:  #FF5E40;
+}
+
+footer {
+	padding: 5px 10vw 5px 10vw;
+}
+
+
+
+.container {
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+}
+
+
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+
+.row-justify-center {
+	justify-content: center;
+}
+
+
+
+.col {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+	padding: 5px 5px;
+	box-sizing: border-box;
+}
+
+
+.col-lg-1 {
+	flex: 0 0 8.333%;
+	max-width: 8.333%;
+}
+
+.col-lg-2 {
+	flex: 0 0 16.667%;
+	max-width: 16.667;
+}
+
+.col-lg-3 {
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.col-lg-4 {
+	flex: 0 0 33.333%;
+	max-width: 33.333%;
+}
+
+.col-lg-5 {
+	flex:0 0 41.667%;
+	max-width: 41.667%;
+}
+
+.col-lg-6 {
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.col-lg-7 {
+	flex: 0 0 58.333%;
+	max-width: 58.333%;
+}
+
+.col-lg-8 {
+	flex: 0 0 66.667%;
+	max-width: 66.667%;
+}
+
+.col-lg-9 {
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.col-lg-10 {
+	flex: 0 0 83.333%;
+	max-width: 83.333%;
+}
+
+.col-lg-11 {
+	flex: 0 0 91.667%;
+	max-width: 91.667%;
+}
+
+.col-lg-12 {
+	flex: 100%;
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+/*!!! MOBILE BREAKPOINT !!!*/
+
+@media screen and (max-width: 480px) {
+
+	main {
+		width: 100vw;
+		margin-left: 0;
+	}
+
+	.container {
+		padding: 0 7vw 0 7vw;
+	}
+
+
+
+
+
+	.col-sm-1 {
+		flex: 0 0 8.333%;
+		max-width: 8.333%;
+	}
+
+	.col-sm-2 {
+		flex: 0 0 16.667%;
+		max-width: 16.667;
+	}
+
+	.col-sm-3 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+
+	.col-sm-4 {
+		flex: 0 0 33.333%;
+		max-width: 33.333%;
+	}
+
+	.col-sm-5 {
+		flex:0 0 41.667%;
+		max-width: 41.667%;
+	}
+
+	.col-sm-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.col-sm-7 {
+		flex: 0 0 58.333%;
+		max-width: 58.333%;
+	}
+
+	.col-sm-8 {
+		flex: 0 0 66.667%;
+		max-width: 66.667%;
+	}
+
+	.col-sm-9 {
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+
+	.col-sm-10 {
+		flex: 0 0 83.333%;
+		max-width: 83.333%;
+	}
+
+	.col-sm-11 {
+		flex: 0 0 91.667%;
+		max-width: 91.667%;
+	}
+
+	.col-sm-12 {
+		flex: 100%;
+		max-width: 100%;
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+

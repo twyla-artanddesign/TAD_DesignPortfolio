@@ -1,0 +1,403 @@
+body {
+	background-color: #2A2A2A;
+}
+
+
+/* TEXT */
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: 6px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	line-height: 100%;
+	letter-spacing: 4px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 13px;
+	line-height: 150%;
+	letter-spacing: 3%;
+	font-weight: 500;
+	color: black;
+}
+
+a {
+	font-family: ;
+	font-size: ;
+	line-height: ;
+	letter-spacing: ;
+	text-decoration: none;
+}
+
+.link {
+	color: #793D32;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+
+/* HEADER */
+
+.logo-header {
+	max-height: 126px;
+	max-width: 40px;
+	margin-right: 15px;
+	margin-bottom: -17px;
+	margin-top: -18px;
+}
+
+.header-txt {
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	line-height: 30%;
+	letter-spacing: 12px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+
+
+/* COLOURS */
+
+.bright-pink {
+	color: #FF5E40;
+}
+
+.bright-pink-bkg {
+	background-color: #FF5E40;
+}
+
+.peach {
+	color: #FFD1B5;
+}
+
+.peach-bkg {
+	background-color: #FFD1B5;
+}
+
+.gray {
+	color: #2A2A2A;
+}
+
+.gray-bkg {
+	background-color: #2A2A2A;
+}
+
+.blk-bkg {
+	background-color: black;
+}
+
+.white {
+	color: white;
+}
+
+
+
+/** IMAGES ETC> **/
+
+.image-box-selfie {
+	aspect-ratio: 7/8;
+}
+
+
+
+/* PROJECT BOXES */
+
+.radio-buttons {
+	opacity: 0%;
+}
+
+.no-radio {
+	display: none;
+}
+
+.project-grid {
+	display: grid;
+	grid-template: 1fr 1fr / repeat(4, 1fr);
+	flex-wrap: wrap;
+	margin: 7px;
+}
+
+.project-box {
+	border-radius: 12px;
+	aspect-ratio: 1 / 1;
+	margin: 7px;
+	padding: 4px;
+}
+
+.project-box:hover {
+	padding:0px;
+}
+
+.project-thumb {
+	object-fit: fill;
+	border-radius: 7px;
+	max-width: 100%;
+	display: block;
+}
+
+.image-box-proj {       /* Used for content section, not project grid */
+	aspect-ratio: 5/6;
+}
+
+.image-box-proj-1 {       /* Used for content section, not project grid */
+	aspect-ratio: 30/48;
+}
+
+.image-box-proj-video {
+	aspect-ratio: 16/9;
+	align-content: center;
+}
+
+video {
+	width: 100%;
+}
+
+
+
+/* ALIGNMENT and JUSTIFICATION*/
+
+.justify-content-center {
+	justify-content: center;
+}
+.justify-item-center {
+	justify-items: center;
+}
+
+.align-text-center {
+	align-text: center;
+}
+
+.order-higher {			/* Put section higher than other sections */
+	order: -2;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+
+
+/* SPACING */
+
+.space-above-below {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.space-ab {
+	padding-top: 50px;
+}
+
+.space-ab-half {
+	padding-top: 50px;
+}
+
+.space-above-below-projectgrid {
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+.space-below {
+	padding-bottom: 50px;
+}
+
+.extra-space-below {
+	padding-bottom: 150px;
+}
+
+
+
+.half-gutter-left {
+	margin-left: 7px;
+}
+
+.half-gutter-right {
+	margin-right: 7px;
+}
+
+.align-self-center {
+	align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lg-hidden {
+	display: none;
+}
+
+/** !!! MOBILE BREAKPOINT !!! **/
+
+@media screen and (max-width: 480px) {
+	.sm-hidden {
+		display: none;
+	}
+
+	.lg-hidden {
+		display: flex;
+	}
+
+
+
+	/** Text **/
+
+	.sm-h2 {
+		font-family: "Montserrat", sans-serif;
+		font-size: 20px;
+		line-height: 100%;
+		letter-spacing: 4px;
+		font-weight: 700;
+		color: black;
+		text-transform: uppercase;
+	}
+
+	.sm-h2-white {
+		font-family: "Montserrat", sans-serif;
+		font-size: 20px;
+		line-height: 100%;
+		letter-spacing: 4px;
+		font-weight: 700;
+		color: white;
+		text-transform: uppercase;
+	}
+
+
+
+
+
+	/** Grid / Project Boxes **/
+
+	.project-grid {
+		display: grid;
+		grid-template: repeat(3, 1fr) / 1fr 1fr;
+		flex-wrap: wrap;
+		margin: 7px;
+	}
+
+	.project-box {
+		border-radius: 12px;
+		aspect-ratio: 1 / 1;
+		margin: 7px;
+		padding: 0px;
+	}
+
+	.project-box:hover {
+		padding:0px;
+	}
+
+	.project-box:active {
+		padding:2px;
+	}
+
+	.image-box-proj-1 {
+		width: 80vw;
+	}
+
+	.sm-proj-display-grid {
+		display: grid;
+		grid-template: repeat(3, 1fr);
+	}
+
+
+
+
+
+	/** Alignment and Justification **/
+
+
+	.sm-text-align-center {
+		text-align: center;
+	}
+
+	.side-margin-7 {
+		margin: 0 7vw 0 7vw;
+	}
+
+	.side-margin-3 {
+		margin: 0 3vw 0 3vw;
+	}
+
+	.side-margin-2point5 {
+		margin: 0 2.5vw 0 2.5vw;
+	}
+
+	.left-margin-2point5 {
+		margin-left: 2.5vw;
+	}
+
+
+
+
+
+
+
+	/** Spacing  **/
+
+	.space-above-below {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.sm-dit-below {
+		padding-bottom: 12px;
+	}
+
+	.sm-negativedit-below {
+		margin-top: -3px;
+	}
+
+	.half-gutter-right {
+		margin-right: 0px;
+	}
+
+	.extra-space-below {
+		padding-bottom: 50px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
